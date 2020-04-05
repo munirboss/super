@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+    <head></head>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <body dir="ltr">
+        <div class="spacer"></div>
+        <div id="topSection">
+            <div id="brandLogo"></div>
+            <div id="searchContainer">
+                <form id="searchForm" name="searchForm" onsubmit="onSearchSubmit(event)">
+
+    <div id="searchLogoContainer"></div>
+    <button id="searchIcon" type="button"></button>
+    <input id="searchText" type="text" name="q" value="" maxlength="256" dir="auto" placeholder="" autocomplete="off" aria-autocomplete="true" aria-controls="searchSuggestionTable" aria-expanded="false"></input>
+
+                    <input id="searchSubmit" type="submit" value="Search"></input>
+                    <table id="searchSuggestionTable" class="searchSuggestionTable" hidden="" role="listbox"></table>
+                </form>
+            </div>
+            <div id="snippetContainer">
+                <div id="defaultSnippets" hidden="true"></div>
+                <span id="rightsSnippet" hidden="true"></span>
+                <div id="snippets">
+                    <span id="defaultSnippet2">
+
+                        It's easy to customize your Firefox exactly the wa…
+
+                        <a href="https://addons.mozilla.org/firefox/?utm_source=snippet&utm_medium=snippet&utm_campaign=addons"></a>
+
+                        .
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="spacer"></div>
+        <div id="launcher">
+            <button id="downloads" class="launchButton"></button>
+            <button id="bookmarks" class="launchButton"></button>
+            <button id="history" class="launchButton"></button>
+            <button id="apps" class="launchButton" hidden="true"></button>
+            <button id="addons" class="launchButton"></button>
+            <button id="sync" class="launchButton"></button>
+            <button id="settings" class="launchButton"></button>
+            <div id="restorePreviousSessionSeparator"></div>
+            <button id="restorePreviousSession" class="launchButton"></button>
+        </div>
+        <a id="aboutMozilla" href="https://www.mozilla.org/about/?utm_source=about-home&utm_medium=Referral"></a>
+    </body>
+
+</html>

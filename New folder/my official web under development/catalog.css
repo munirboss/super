@@ -1,0 +1,23 @@
+#jump {
+    text-align: center;
+    padding: 40px;
+    background-size: cover;
+    background-image: url(images/OIP[4].jpg);
+    border-radius: 60px;
+}
+
+#jumbotron text-center {
+    border-radius: 60px;
+    padding: 20px;
+    background-color: rgba(225, 225, 225,0, 75);
+}  
+
+.body{
+    background-color: honeydew;
+}
+
+#btn:hover {
+    color: white;
+    box-shadow: grey;
+
+}
